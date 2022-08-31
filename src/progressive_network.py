@@ -11,9 +11,8 @@ class Net(nn.Module):
         out = F.relu(self.fc1(x))
         
 
-
 class PNet(nn.Module):
     def __init__(self):
         super(PNet, self).__init__()
-        self.fc1 = nn.L
+        self.fc1 = nn.Linear(1,1)
         
